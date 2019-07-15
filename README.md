@@ -4,7 +4,7 @@ At Homeflow, we need our front-end developers to be skilled with client-side tec
 
 ## The Brief
 
-Your challenge is to take this bare-bones starter app (that currently doesn't do very much) and turn it into a property-searching site using our API. Everything else (even the interpretation of "property-searching site") is up to you. We like Ruby, so we've created this app using Ruby and [Sinatra](http://sinatrarb.com/), a lightweight web framework. Don't worry if you've never used these technologies before, they're fairly easy to pick up, and both have good documentation online.
+Your challenge is to take this bare-bones starter app (that currently doesn't do very much) and turn it into a property-searching app using our API. Everything else (even the interpretation of "property-searching app") is up to you. We like Ruby, so we've created this app using Ruby and [Sinatra](http://sinatrarb.com/), a lightweight web framework. Don't worry if you've never used these technologies before, they're fairly easy to pick up, and both have good documentation online.
 
 We'd like you to build a [single-page application](https://en.wikipedia.org/wiki/Single-page_application), so JavaScript is key. We've included jQuery, but you're welcome to use any libraries or frameworks you're comfortable with.
 
