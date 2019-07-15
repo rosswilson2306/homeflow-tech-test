@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <title>Homeflow</title>
+  </head>
+
+  <body>
+    <h1>Homeflow</h1>
+
+    <script>
+      $.get('api/properties?location=brighton', function(response) {
+        console.log(response);
+      });
+    </script>
+  </body>
+</html>
