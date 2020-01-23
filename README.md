@@ -20,7 +20,10 @@ You'll need to have Ruby and the bundler gem installed.
 
 1. Clone this repository
 2. From inside this folder, run `bundle install` to install the dependencies.
-3. From the same place, run the command `ruby app.rb`. You should see something like this:
+3. Request a copy of the API configuration file `homeflow.yml` and save it to the root directory of the project.
+4. From the same place, run the command `ruby app.rb`.
+
+You should see something like this:
 
 ```
 == Sinatra (v1.4.8) has taken the stage on 4567 for development with backup from Thin
@@ -34,27 +37,14 @@ Listening on localhost:4567, CTRL+C to stop
 
 **NOTE: You'll need to restart the server any time you make changes to the server-side code.**
 
-## Tips
-
 Anything you put in the `public` folder will be directly accessible in the browser. This includes JavaScripts, Stylesheets, images etc
-
-_Some_ of our API's endpoints are documented [here](http://developer.homeflow.co.uk/appendix)
-
-We also have a [gem](http://developer.homeflow.co.uk/homeflow-api-gem/) that may be useful.
-
-If you need inspiration, take a look at some of our clients' websites:
-
-https://www.leaders.co.uk
-
-https://www.winkworth.co.uk
 
 ## Troubleshooting
 
-We've been deliberately vague with this brief and instructions, because we want to see if you can solve problems on your own. However, if you run into an issue you can't get past, don't just give up! Email us at developer-support@homeflow.co.uk and we'll do our best to point you in the right direction.
+We've been deliberately vague with these instructions because we want to see if you can solve problems on your own. However, if you run into an issue you can't get past, don't just give up! Email us at developer-support@homeflow.co.uk and we'll do our best to point you in the right direction.
 
 ## Getting Started
 
 Take a look at the browser's JS console. Do you see some data?
 
 Good luck!
-# homeflow_tech_test
