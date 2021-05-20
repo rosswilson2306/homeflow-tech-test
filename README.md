@@ -48,4 +48,8 @@ We've been deliberately vague with these instructions because we want to see if 
 
 Take a look at the browser's JS console. Do you see some data?
 
+We have some documentation on API endpoints that may be useful:
+
+https://developer.homeflow.co.uk/appendix/#hestia-urls
+
 Good luck!
