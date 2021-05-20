@@ -8,7 +8,7 @@ end
 
 # root path - renders static html file
 get '/' do
-  send_file "public/index.html"
+  send_file 'public/index.html'
 end
 
 # example property searching path
