@@ -1,27 +1,24 @@
 # Homeflow Front-end Technical test
 
-At Homeflow, we need our front-end developers to be skilled with client-side technologies, but also able to work with server-side code. Our challenge is designed to test your skill with HTML, CSS and JavaScript; as well as your problem-solving ability.
+At Homeflow, we like our developers to be comfortable with a broad range of technologies and have great problem-solving ability. This repo is a basic web app that currently fetches some properties from our API and outputs them to the browser's JS console.
 
-## The Brief
+Your task is simply to use this data (or any other data you're able to retrieve) and create something. It might be a simple app that searches properties based on user input, or it may allow a user to save properties to their favourites, or rank properties on how much they like them. It's really up to you.
 
-Your challenge is to take this bare-bones starter app (that currently doesn't do very much) and turn it into a property-searching app using our API. Everything else (even the interpretation of "property-searching app") is up to you. We like Ruby, so we've created this app using Ruby and [Sinatra](http://sinatrarb.com/), a lightweight web framework. Don't worry if you've never used these technologies before, they're fairly easy to pick up, and both have good documentation online.
+Don't spend hours on this - we don't expect a fully-functioning property searching website, just an interesting example of how you might use a new API and the kind of code you write to do that. We're especially interested in discussing your approach to this challenge if you manage to secure an interview.
 
-We'd like you to build a [single-page application](https://en.wikipedia.org/wiki/Single-page_application), so JavaScript is key. We've included jQuery, but you're welcome to use any libraries or frameworks you're comfortable with.
-
-We'll leave design and layout entirely up to you. Try to be creative!
-
-Don't spend any more than 3 hours on the test. When you're ready to submit the project, create a pull request on bitbucket and we'll take a look. We may leave some comments for you to act on, as we're also interested in your ability to listen to feedback and make changes accordingly.
+We like Ruby, so we've created this app using Ruby and [Sinatra](http://sinatrarb.com/), a lightweight web framework. Don't worry if you've never used these technologies before, they're fairly easy to pick up, and both have good documentation online.
 
 ## Prerequisites
 
-You'll need to have Ruby and the bundler gem installed.
+You'll need to have Ruby and the bundler gem installed, as well as Node.js and NPM.
 
 ## Running the app
 
 1. Clone this repository
-2. From inside this folder, run `bundle install` to install the dependencies.
-3. Request a copy of the API configuration file `homeflow.yml` and save it to the root directory of the project.
-4. From the same place, run the command `ruby app.rb`.
+2. From inside this folder, run `bundle install` to install the back-end dependencies.
+3. Run `npm install` to install the front-end dependencies.
+4. Request a copy of the API configuration file `homeflow.yml` and save it to the root directory of the project.
+5. From the same place, run the command `ruby app.rb`.
 
 You should see something like this:
 
@@ -38,6 +35,10 @@ Listening on localhost:4567, CTRL+C to stop
 **NOTE: You'll need to restart the server any time you make changes to the server-side code.**
 
 Anything you put in the `public` folder will be directly accessible in the browser. This includes JavaScripts, Stylesheets, images etc
+
+To make changes to the JS or SCSS inside the `src/` directory you'll need to have Webpack running - you can do this with `npm start`.
+
+Once your happy with your creation, either upload it to Github or send it across to us via email.
 
 ## Troubleshooting
 
