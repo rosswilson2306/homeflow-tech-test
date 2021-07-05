@@ -30,7 +30,7 @@ Listening on localhost:4567, CTRL+C to stop
 ```
 
 4. In your browser, navigate to http://localhost:4567
-5. You should see the heading "Homeflow" on the page.
+5. You should see the heading "Homeflow Front-end Tech Test" on the page.
 
 **NOTE: You'll need to restart the server any time you make changes to the server-side code.**
 
