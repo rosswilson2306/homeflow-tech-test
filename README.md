@@ -52,4 +52,12 @@ We have some documentation on API endpoints that may be useful:
 
 https://developer.homeflow.co.uk/appendix/#hestia-urls
 
+If you would like to render property images, you'll need to combine the image file paths in the property data with the URL for our image server:
+
+http://mr0.homeflow.co.uk/
+
+or
+
+http://mr1.homeflow.co.uk/
+
 Good luck!
