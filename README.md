@@ -32,7 +32,7 @@ Listening on localhost:4567, CTRL+C to stop
 4. In your browser, navigate to http://localhost:4567
 5. You should see the heading "Homeflow Front-end Tech Test" on the page.
 
-**NOTE: If you make any changes to the server-side (Ruby) code, you'll need to restart your server for the changes to take effect.**
+**NOTE:** Although the back-end of this application is written in Ruby, you aren't required to make any changes to the server-side code. You're free to build whatever front-end you like on top of it. If you _would_ like to make changes to the server-side code (which you can do to make different kinds of requests), you'll need to remember to restart the server locally for these changes to take effect.
 
 Anything you put in the `public` folder will be directly accessible in the browser. This includes JavaScripts, Stylesheets, images etc
 
