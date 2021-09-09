@@ -38,7 +38,7 @@ Anything you put in the `public` folder will be directly accessible in the brows
 
 To make changes to the JS or SCSS inside the `src/` directory you'll need to have Webpack running - you can do this with `npm start`.
 
-Once your happy with your creation, either upload it to Github or send it across to us via email.
+Once you're happy with your creation, either upload it to Github or send it across to us via email.
 
 ## Troubleshooting
 
